@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/paddingItems"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ivHeight"
+            tools:src="@drawable/coctail_about"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/marginTopDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--createdAt-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="@string/createdAt"/>
+
+            <ImageView
+                android:id="@+id/ivRead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:src="@drawable/red_flag"/>
+
+        </LinearLayout>
+
+        <!--createdAt-->
+        <TextView
+            android:id="@+id/tvCreatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="yyyy-MM-dd"/>
+
+        <!--ID-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/id"/>
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--NAME-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/name"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--brewery type-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/brewery_type"/>
+
+        <TextView
+            android:id="@+id/tvBreweryType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--city-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/city"/>
+
+        <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--state-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/state"/>
+
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--postal_code-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/postal_code"/>
+
+        <TextView
+            android:id="@+id/tvPostalCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--country-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/country"/>
+
+        <TextView
+            android:id="@+id/tvCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+        <!--Updated at-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/updated_at"/>
+
+        <TextView
+            android:id="@+id/tvUpdatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem"/>
+
+    </LinearLayout>
+
+</ScrollView>

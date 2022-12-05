@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cocktail Heaven</string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_internet">No internet</string>
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="really">Do you really want to exit the app?</string>
+    <string name="cancel">Cancel</string>
+    <string name="application_made_by_dario_dra_enovi">Application made by Dario Draženović</string>
+    <string name="delete">Delete</string>
+    <string name="sure">Are you sure to delete</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="id">Id</string>
+    <string name="createdAt">Created at</string>
+    <string name="brewery_type">Brewery Type</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="country">Country</string>
+    <string name="updated_at">Updated at</string>
+</resources>
